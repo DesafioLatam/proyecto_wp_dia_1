@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <!-- Hero Section -->
-   <header class="masthead text-center text-white d-flex">
+   <header class="masthead text-center text-white d-flex" style="background: url('<?php echo get_theme_file_uri() ?>/assets/images/home-bg.jpg') no-repeat center center; background-size: cover; ">
      <div class="container my-auto">
        <div class="row">
          <div class="col-lg-10 mx-auto">
@@ -84,8 +84,8 @@
        <hr class="my-4">
        <div class="row no-gutters popup-gallery">
          <div class="col-lg-4 col-sm-6">
-           <a class="portfolio-box" href="img/portfolio/1.jpg">
-             <img class="img-fluid" src="img/portfolio/1.jpg" alt="">
+           <a class="portfolio-box" href="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/1.jpg">
+             <img class="img-fluid" src="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/1.jpg" alt="sesión fotográfica vin-age.cl">
              <div class="portfolio-box-caption">
                <div class="portfolio-box-caption-content">
                  <div class="project-category text-faded">
@@ -99,8 +99,8 @@
            </a>
          </div>
          <div class="col-lg-4 col-sm-6">
-           <a class="portfolio-box" href="img/portfolio/2.jpg">
-             <img class="img-fluid" src="img/portfolio/2.jpg" alt="">
+           <a class="portfolio-box" href="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/2.jpg">
+             <img class="img-fluid" src="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/2.jpg" alt="">
              <div class="portfolio-box-caption">
                <div class="portfolio-box-caption-content">
                  <div class="project-category text-faded">
@@ -114,8 +114,8 @@
            </a>
          </div>
          <div class="col-lg-4 col-sm-6">
-           <a class="portfolio-box" href="img/portfolio/3.jpg">
-             <img class="img-fluid" src="img/portfolio/3.jpg" alt="">
+           <a class="portfolio-box" href="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/3.jpg">
+             <img class="img-fluid" src="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/3.jpg" alt="">
              <div class="portfolio-box-caption">
                <div class="portfolio-box-caption-content">
                  <div class="project-category text-faded">
@@ -129,8 +129,8 @@
            </a>
          </div>
          <div class="col-lg-4 col-sm-6">
-           <a class="portfolio-box" href="img/portfolio/4.jpg">
-             <img class="img-fluid" src="img/portfolio/4.jpg" alt="">
+           <a class="portfolio-box" href="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/4.jpg">
+             <img class="img-fluid" src="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/4.jpg" alt="">
              <div class="portfolio-box-caption">
                <div class="portfolio-box-caption-content">
                  <div class="project-category text-faded">
@@ -144,8 +144,8 @@
            </a>
          </div>
          <div class="col-lg-4 col-sm-6">
-           <a class="portfolio-box" href="img/portfolio/5.jpg">
-             <img class="img-fluid" src="img/portfolio/5.jpg" alt="">
+           <a class="portfolio-box" href="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/5.jpg">
+             <img class="img-fluid" src="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/5.jpg" alt="">
              <div class="portfolio-box-caption">
                <div class="portfolio-box-caption-content">
                  <div class="project-category text-faded">
@@ -159,8 +159,8 @@
            </a>
          </div>
          <div class="col-lg-4 col-sm-6">
-           <a class="portfolio-box" href="img/portfolio/6.jpg">
-             <img class="img-fluid" src="img/portfolio/6.jpg" alt="">
+           <a class="portfolio-box" href="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/6.jpg">
+             <img class="img-fluid" src="<?php echo get_theme_file_uri() ?>/assets/images/portfolio/6.jpg" alt="">
              <div class="portfolio-box-caption">
                <div class="portfolio-box-caption-content">
                  <div class="project-category text-faded">

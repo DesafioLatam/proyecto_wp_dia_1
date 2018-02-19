@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+  // Add bootstrap class for navbar menu
+  $('.navbar-nav').children('li').addClass('nav-item');
+  $('.nav-item').children('a').addClass('nav-link js-scroll-trigger');
+
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
