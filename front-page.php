@@ -184,23 +184,12 @@
          <div class="col-lg-8 mx-auto text-center">
            <h2 class="section-heading">Contáctanos</h2>
            <hr class="my-4">
-           <p class="mb-5">¿Estás listo para darle vida a tu marca? Si lo estás, cuentános más en el siguiente formulario de contacto</p>
+           <p class="mb-5">¿Estás listo para darle vida a tu marca? Si lo estás, cuéntanos más en el siguiente formulario de contacto</p>
          </div>
        </div>
        <div class="row">
          <div class="col-lg-12">
-           <form>
-             <div class="form-group">
-               <label for="InputEmail1">Correo electrónico</label>
-               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo">
-               <small id="emailHelp" class="form-text text-muted">Nunca daremos a conocer tu datos con terceros</small>
-             </div>
-             <div class="form-group">
-               <label for="ControlTextarea1">Mensaje</label>
-               <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje aquí"rows="3"></textarea>
-             </div>
-             <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-           </form>
+           <?php echo do_shortcode('[contact-form-7 id="47" title="Formulario de contacto 1"]'); ?>
          </div>
          <div class="col-lg-4 ml-auto text-center">
            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
